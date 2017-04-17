@@ -7,10 +7,10 @@ until number == 10
   puts number
 end
 
-#modified
+# modified
 number = 0
 
 until number == 10
   number += 1
-  puts number.next if number.odd?
+  puts number.next if number.odd? # skips next iteration if that number is odd
 end
