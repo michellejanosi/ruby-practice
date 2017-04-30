@@ -5,3 +5,8 @@ def find_short(s)
 end
 
 find_short("bitcoin take over the world maybe who knows perhaps") # => 3)
+
+# refactored
+def find_short(s)
+    s.split.map(&:size).min
+end
