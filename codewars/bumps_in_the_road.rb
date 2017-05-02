@@ -6,7 +6,7 @@
 
 def bump(x)
   # return "Card Dead" if x.chars.count("n") > 15 else "Woohoo!"
-  x.chars.count("n") > 15 ? "Card Dead" : "Woohoo!"
+  x.chars.count("n") > 15 ? "Car Dead" : "Woohoo!"
 end
 
 bump("_nnnnnnn_n__n______nn__nn_nnn") # => "Car Dead"
